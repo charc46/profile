@@ -42,7 +42,7 @@ a {
 
 .button {
   padding: 20px;
-  background-color: #555;
+  background-color: #003049;
   color: #fff;
   border-radius: 5px;
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
@@ -52,6 +52,7 @@ a {
 .button:hover {
   letter-spacing: 1px;
   padding: 20px 12px;
+  background-color: #004160;
 }
 
 .img-circle {
@@ -62,8 +63,8 @@ a {
 .social-links {
   font-size: 40px;
   padding: 10px;
-  margin: 5px;
-  color: #555;
+  margin-top: -10px;
+  color: #003049;
   transition: transform .3s;
   display: inline-block;
 }
@@ -122,7 +123,7 @@ a {
 
   .button {
     padding: 10px;
-    background-color: #555;
+    background-color: #003049;
     color: #fff;
     border-radius: 5px;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
@@ -130,7 +131,8 @@ a {
   }
 
   .button:hover {
-    letter-spacing: .5px;
-    padding: 10px 6px;
+    letter-spacing: 1px;
+    padding: 20px 12px;
+    background-color: #004160;
   }
 }
