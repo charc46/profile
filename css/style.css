@@ -1,3 +1,7 @@
+@import url("components/cards.css");
+@import url("components/buttons.css");
+@import url("components/avatar.css");
+
 body {
   background-color: rgb(235,235,235);
   font-family: 'Raleway', sans-serif;
@@ -5,107 +9,18 @@ body {
   line-height: 30px;
 }
 
-hr {
-  margin-top: -18px;
-  color: #003049;
-  width: 30%;
-  border: 0;
-  height: 1px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-}
-
 h1 {
   font-family: 'PT Sans', sans-serif;
 }
 
-h2 {
-  margin-top: 5px;
-}
-
 a {
   text-decoration: none;
-}
-
-p {
-  line-height: 15px;
+  display: inline-block;
 }
 
 .container {
   width: 800px;
   margin: 0 auto;
-}
-
-.card {
-  background-color: rgb(255,255,255);
-  text-align: center;
-  padding: 20px 20px;
-  margin: 10px;
-  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
-  border: 1px solid lightgrey;
-}
-
-#profile-card {
-  padding-bottom: 30px;
-}
-
-#profile-card h2 {
-  margin-bottom: 30px;
-}
-
-.button {
-  padding: 15px;
-  background-color: #003049;
-  color: #fff;
-  border-radius: 5px;
-  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
-  transition: all .5s;
-  display: inline-block;
-}
-
-.button:hover {
-  letter-spacing: 1px;
-  padding: 15px 7px;
-  background-color: #004160;
-}
-
-.lewagon-button {
-  padding: 10px;
-  font-size: 14px;
-  background-color: #003049;
-  color: #fff;
-  border-radius: 5px;
-  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
-  transition: all .5s;
-  display: inline-block;
-}
-
-.lewagon-button:hover {
-  letter-spacing: .5px;
-  padding: 10px 7px;
-  background-color: #004160;
-}
-
-#lewagon-text {
-  margin-bottom: 5px;
-}
-
-.img-circle {
-  width: 250px;
-  border-radius: 50%;
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, .2);
-}
-
-.social-links {
-  font-size: 40px;
-  padding: 10px;
-  color: #003049;
-  transition: transform .3s;
-  display: inline-block;
-}
-
-.social-links:hover {
-  transform: scale(1.1);
 }
 
 @media (max-width: 960px) {
@@ -117,7 +32,7 @@ p {
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
-    width: 400px;
+    width: 100%;
   }
 
   h2 {
@@ -143,8 +58,13 @@ p {
 }
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
+  body {
+    margin: 0;
+  }
   .container {
-    width: 300px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
 
   .img-circle {
@@ -154,6 +74,8 @@ p {
 
   .card {
     padding: 10px;
+    margin: 5px 0;
+    border-radius: 0;
   }
 
   h1 {
@@ -168,7 +90,7 @@ p {
 
   p {
     font-size: 14px;
-    margin-top: -5px;
+    /*margin-top: -5px;*/
   }
 
   .social-links {

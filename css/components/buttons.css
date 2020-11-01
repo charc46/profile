@@ -1,0 +1,53 @@
+.button {
+  padding: 15px;
+  background-color: #003049;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+  transition: all .5s;
+  display: inline-block;
+}
+
+.button:hover {
+  letter-spacing: 1px;
+  padding: 15px 7px;
+  background-color: #004160;
+}
+
+.lewagon-button {
+  padding: 10px;
+  font-size: 14px;
+  background-color: #003049;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+  transition: all .5s;
+  display: inline-block;
+}
+
+.lewagon-button:hover {
+  letter-spacing: .5px;
+  padding: 10px 7px;
+  background-color: #004160;
+}
+
+.button:active {
+  transform: translate(2px, 2px);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.social-links {
+  font-size: 40px;
+  padding: 10px;
+  color: #003049;
+  transition: transform .3s;
+  display: inline-block;
+}
+
+.social-links:hover {
+  transform: scale(1.1);
+}
+
+.social-links:active {
+  transform: translate(1px, 1px);
+}
